@@ -14,7 +14,7 @@ class Wolf {
     updateNeibourghs() {
         this.neighbours = [
             [this.x - 1, this.y - 1],
-            [this.x, y - this.y - 1],
+            [this.x, this.y - 1],
             [this.x + 1, this.y - 1],
             [this.x - 1, this.y],
             [this.x + 1, this.y],
